@@ -8,5 +8,6 @@ public class IveEndpoint extends ResourceConfig {
     public IveEndpoint() {
         register(AudioCaptureResource.class);
         register(EventResource.class);
+        register(CorsProvider.class);
     }
 }
